@@ -17,7 +17,7 @@ luckyNoInput.addEventListener('change', function(e) {
 
 checkBtn.addEventListener('click', function() {
     if (lucky==undefined || bday==undefined) {
-        output.innerHTML="kindly enter both the fields"
+        output.innerHTML="<h3>kindly enter both the fields</h3>"
     }
     
     else {
